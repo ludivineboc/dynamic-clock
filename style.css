@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh; /* Assure que le body occupe toute la hauteur de la fenêtre */
+    margin: 0; /* Supprime les marges par défaut */
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+}
+
+/* classe pour le moment "matin"*/
+.bgMatin {
+    background-image: url(assets/matin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* classe pour le moment "aprem"*/
+.bgAprem {
+    background-image: url(assets/aprem.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* classe pour le moment "soir"*/
+.bgSoir {
+    background-image: url(assets/soir.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* boite contenant l'affichage de l'heure*/
+.clockBox {
+    height: 50vh;
+    width: 40%;
+    background-color: rgba(252, 255, 254, 0.166);
+    backdrop-filter: blur(4px);
+    border-radius: 40px;
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+}
+
+/* paragraphe de l'heure*/
+.clockBox  p {
+    font-size: 7rem;
+    font-family: "Funnel Display", sans-serif;
+    color: aliceblue;
+}
