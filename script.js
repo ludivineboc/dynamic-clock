@@ -3,8 +3,8 @@
 let aujourdHui = new Date();
     
 // Récupérer seulement l'heure et la stocker dans une variable 
-let heure = 13//aujourdHui.getHours(); 
-let minutes = 12//aujourdHui.getMinutes();
+let heure = aujourdHui.getHours(); 
+let minutes = aujourdHui.getMinutes();
 
 
 // rôle :définir le moment de la journée (matin, aprem, soir)
